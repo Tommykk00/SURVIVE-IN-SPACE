@@ -126,7 +126,7 @@ while True:
                 # If the mouse moves, move the player where the cursor is.
                 playerRect.move_ip(event.pos[0] - playerRect.centerx, event.pos[1] - playerRect.centery)
 
-        # Add new baddies at the top of the screen, if needed.
+        # Add new asteroids at the top of the screen, if needed.
         if not reverseCheat and not slowCheat:
             asteroidAddCounter += 1
         if asteroidAddCounter == ADD_NEW_ASTEROID_RATE:
